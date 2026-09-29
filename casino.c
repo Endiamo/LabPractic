@@ -1,7 +1,20 @@
 #include <stdio.h>
-
 #include <time.h> 
 #include <stdlib.h>
+
+
+int total()
+{
+    if (x1 = x2 = x3){
+        printf("BIG WIN!!!\n");
+    }
+    else{
+        printf("Lose\n");
+    }
+    
+    
+}
+
 
 typedef struct {
 	int x1;
@@ -31,8 +44,7 @@ int main(){
     int bank;
     scanf("enter the desired amount: %d", &bank);
     int x1, x2, x3 = random();
-    
-
+    total();
+	return 0;
 
 }
-

@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include <time.h> 
 #include <stdlib.h>
 
@@ -15,12 +16,23 @@ threenumbers random(void){
 	r.x3 = rand() % 10 + 1;
 	return r;
 }
-int main(void) {
+int random_() {
 	srand((unsigned)time(NULL));
 	threenumbers nums = random();
 	int x1 = nums.x1;
 	int x2 = nums.x2;
 	int x3 = nums.x3;
-	printf("%d, %d, %d");
-	return 0
+	return x1, x2, x3;
+	
 }
+
+
+int main(){
+    int bank;
+    scanf("enter the desired amount: %d", &bank);
+    int x1, x2, x3 = random();
+    
+
+
+}
+
